@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Privacy policy — Docalc</title><meta name="description" content="Effective 22 November 2026"><style>
+<title>Privacy policy — Docalc</title><meta name="description" content="Effective 24 November 2026"><style>
 :root{--bg:#f5f7fa;--card:#fff;--ink:#0f172a;--muted:#475569;--line:#e2e8f0;--accent:#0f766e}
 @media (prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#121b2d;--ink:#e6ebf2;--muted:#9aa8bb;--line:#1f2a3d;--accent:#2dd4bf}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
@@ -13,7 +13,7 @@ nav.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}nav.links a{backgr
 .btn{display:inline-block;background:var(--accent);color:#fff;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:600}
 footer{max-width:780px;margin:0 auto;padding:0 16px 40px;font-size:14px}footer,footer a{color:var(--muted)}
 </style></head><body>
-<header><div class="w"><a href="index.html">Docalc</a><h1>Privacy policy</h1><p>Effective 22 November 2026</p>
+<header><div class="w"><a href="index.html">Docalc</a><h1>Privacy policy</h1><p>Effective 24 November 2026</p>
 <nav class="links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="delete-account.html">Delete account</a><a href="mailto:docalc@metconhitech.com">Contact</a></nav></div></header>
 <main>
 <section><h2>Summary</h2><ul>
@@ -26,11 +26,15 @@ footer{max-width:780px;margin:0 auto;padding:0 16px 40px;font-size:14px}footer,f
 
 <section><h2>Information we process</h2>
 <table><tr><th>Data</th><th>When</th><th>Why</th></tr>
-<tr><td>Email address</td><td>You sign in or create an account</td><td>Account, sign-in codes, account-related messages</td></tr>
+<tr><td>Email address</td><td>You sign in or create an account (an account is required)</td><td>Account, sign-in codes, account-related messages</td></tr>
+<tr><td>Google account name, email and profile picture</td><td>You choose “Continue with Google”</td><td>Creating and signing in to your Docalc account. We never receive your Google password</td></tr>
+<tr><td>Terms acceptance (version and date)</td><td>You accept the terms of use</td><td>Recording that you agreed to the terms</td></tr>
 <tr><td>Name and role (optional)</td><td>You add them in Account → Profile</td><td>Personalising your account</td></tr>
 <tr><td>Subscription records (Google Play purchase token, product, plan, status, expiry)</td><td>You subscribe to Docalc Pro or restore a purchase</td><td>Verifying and providing Pro; preventing fraud</td></tr>
 <tr><td>Random install identifier and Google Play Integrity verdict</td><td>Pro is activated or refreshed</td><td>Security: confirming the genuine app on a genuine device; limiting Pro to 3 devices per account</td></tr>
-<tr><td>Favourite and recently used tool names</td><td>Docalc Pro sync is active</td><td>Syncing your tools across devices</td></tr>
+<tr><td>Favourite and recently used tool names, library bookmarks</td><td>Docalc Pro sync is active</td><td>Syncing your tools across devices</td></tr>
+<tr><td>Notebooks (titles, handwriting, text, labels and inserted sketches)</td><td>Docalc Pro notes sync is active</td><td>Syncing your notes across your devices. Without Pro, notebooks stay only on your device</td></tr>
+<tr><td>Messages you send to the AI tutor</td><td>You use the AI tutor</td><td>Generating the tutor's reply. Messages are passed to the AI provider in use and are not stored by Docalc. If you use your own API key, it is sent with each request to reach that provider and is never stored or logged</td></tr>
 <tr><td>Technical logs (IP address, timestamps, device/browser type)</td><td>Any request to our servers</td><td>Security, abuse prevention (rate limiting) and troubleshooting</td></tr></table>
 <h3>What we do not collect</h3><p class="muted">Patient information or calculator inputs; your location; contacts; photos (the colony-counter camera is processed on the device only); advertising identifiers; health data about you.</p></section>
 
@@ -40,7 +44,9 @@ footer{max-width:780px;margin:0 auto;padding:0 16px 40px;font-size:14px}footer,f
 <li><strong>Supabase</strong> — authentication, database and file storage.</li>
 <li><strong>Google</strong> — Google Play Billing (payments are handled by Google; we never see your card details) and Play Integrity.</li>
 <li><strong>Vercel</strong> — hosting of the Docalc website.</li>
-<li>An <strong>email delivery provider</strong> — sending sign-in codes.</li></ul>
+<li>An <strong>email delivery provider</strong> — sending sign-in codes.</li>
+<li><strong>Google</strong> — “Continue with Google” sign-in.</li>
+<li>An <strong>AI model provider</strong> (such as Anthropic, Google, OpenAI or OpenRouter, as configured) — only for AI tutor messages you send.</li></ul>
 <p>Data may be processed outside your country; providers use appropriate safeguards such as standard contractual clauses. We do not sell or share your data for advertising.</p></section>
 
 <section><h2>Retention</h2><p>We keep account data while your account exists. When you delete your account, your account, profile, subscription records held by us, device registrations and synced data are deleted immediately from our live systems and from backups within 30 days. Google keeps its own purchase records under its policies. Security logs are kept for up to 90 days.</p></section>
